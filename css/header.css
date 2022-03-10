@@ -1,10 +1,33 @@
-/*selector {
-    prop: value;
-    pop2: value2;
+/*  background-color: rgb(50, 206, 211); 
+.header {
 }
 */
-
-* {
-    margin: 0;
-    padding: 0;
+.header__nav {
+    padding: 10px;
+    background-color: var(--accent-color);
+}
+.header__bunner-h1,
+.header__nav-logo {
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header__nav-meu-item {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--text-color);
+}
+.header__nav-meu-item:hover {
+    font-weight: bold;
+}
+.header__banner {
+    background-image: url(../img/fon.png);
+    min-height: 400px;
+    background-size: cover; 
+    background-position: center;   
+}
+.header__bunner-h1{
+    color: var(--accent-color);
+    
 }
